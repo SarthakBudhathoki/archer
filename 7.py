@@ -169,7 +169,7 @@ while running:
                     highscore = highscore
 
             finally:
-                time.sleep(1)
+                time.sleep(2)
                 #Asking the player if they want to play again
                 play_again = input("If you'd like to play again, please type 'yes':")
                 if play_again == "yes" :
